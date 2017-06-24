@@ -11,6 +11,17 @@ const config = {
   },
 
   module: {
+    rules: [
+      {
+        // enforce: "pre",
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          "babel-loader",
+          "eslint-loader",
+        ]
+      }
+    ],
     loaders: [
       {
         test : /\.js$/,

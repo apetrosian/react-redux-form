@@ -1,19 +1,27 @@
 {
   "name": "task_3",
   "version": "1.0.0",
-  "description": "task 3",
+  "description": "smava task 3",
   "main": "index.js",
   "scripts": {
     "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
   },
   "author": "Artem Petrosian",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "^20.0.3",
     "redux-devtools": "^3.4.0",
     "webpack": "^2.5.1"
   },

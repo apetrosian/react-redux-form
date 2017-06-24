@@ -1,5 +1,4 @@
 import React from 'react'
-import {render} from 'react-dom'
 import { Field, FieldArray, reduxForm } from 'redux-form'
 import validate from './validate'
 
